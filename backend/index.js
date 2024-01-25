@@ -1,11 +1,9 @@
 const express = require("express");
 const cors = require("cors");
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 dotenv.config();
 
-const { User } = require("./db.js");
+// const db = require("./db.js");
 const mainRouter = require("./routes/index.js");
 
 const app = express();
